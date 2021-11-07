@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_8",
 	"refmap": "minetweaks.refmap.json",
 	"mixins": [
-		"PotionEntityMixin"
+		"PotionEntityMixin",
+		"CampfireBlockMixin"
 	],
 	"minVersion": "0.8"
 }
