@@ -5,7 +5,8 @@
 	"refmap": "minetweaks.refmap.json",
 	"mixins": [
 		"PotionEntityMixin",
-		"CampfireBlockMixin"
+		"CampfireBlockMixin",
+		"StonecutterBlockMixin"
 	],
 	"minVersion": "0.8"
 }
