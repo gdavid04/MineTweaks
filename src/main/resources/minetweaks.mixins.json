@@ -6,7 +6,8 @@
 	"mixins": [
 		"PotionEntityMixin",
 		"CampfireBlockMixin",
-		"StonecutterBlockMixin"
+		"StonecutterBlockMixin",
+		"RedstoneOreBlockMixin"
 	],
 	"minVersion": "0.8"
 }
