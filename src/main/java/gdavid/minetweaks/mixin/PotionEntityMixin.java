@@ -39,7 +39,7 @@ public class PotionEntityMixin {
 					pos = pos.add(rand.nextInt(3) - 1, (rand.nextInt(3) - 1) * (rand.nextInt(3) / 2), rand.nextInt(3) - 1);
 					BlockState state = self.world.getBlockState(pos);
 					if (state.hasOpaqueCollisionShape(self.world, pos)) {
-						if (state.getBlock() == Blocks.GRASS_BLOCK) {
+						if (state.getBlock() == Blocks.GRASS_BLOCK || state.getBlock() == Blocks.MYCELIUM) {
 							BlockState newState = grassReplacements[rand.nextInt(grassReplacements.length)];
 							self.world.setBlockState(pos, newState);
 						} else if (state.getBlock() == Blocks.DIRT) {
