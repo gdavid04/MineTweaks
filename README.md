@@ -8,3 +8,4 @@ Small Minecraft tweaks
 - Stonecutters damage mobs
 - Redstone Ore lights up when receiving a redstone signal with power > 8 and produces a redstone signal (power 8) while lit
 - Arrows toggle levers
+- Sticks increase reach distance
