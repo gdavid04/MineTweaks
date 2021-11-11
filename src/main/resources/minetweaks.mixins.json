@@ -7,7 +7,8 @@
 		"PotionEntityMixin",
 		"CampfireBlockMixin",
 		"StonecutterBlockMixin",
-		"RedstoneOreBlockMixin"
+		"RedstoneOreBlockMixin",
+		"AbstractArrowEntityMixin"
 	],
 	"minVersion": "0.8"
 }
