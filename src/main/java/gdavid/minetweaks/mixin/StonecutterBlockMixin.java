@@ -1,7 +1,5 @@
 package gdavid.minetweaks.mixin;
 
-import org.spongepowered.asm.mixin.Mixin;
-
 import gdavid.minetweaks.MineTweaks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -10,10 +8,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(value = StonecutterBlock.class)
 public class StonecutterBlockMixin extends Block {
-
+	
 	private static final DamageSource saw = new DamageSource(MineTweaks.modId + ".saw");
 	
 	private StonecutterBlockMixin(Properties properties) {
