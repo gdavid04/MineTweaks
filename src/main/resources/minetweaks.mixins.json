@@ -1,15 +1,12 @@
 {
-	"required": true,
-	"package": "gdavid.minetweaks.mixin",
-	"compatibilityLevel": "JAVA_8",
-	"refmap": "minetweaks.refmap.json",
-	"mixins": [
-		"PotionEntityMixin",
-		"CampfireBlockMixin",
-		"StonecutterBlockMixin",
-		"RedstoneOreBlockMixin",
-		"AbstractArrowEntityMixin",
-		"ItemStackMixin"
-	],
-	"minVersion": "0.8"
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gdavid.minetweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemStackMixin",
+    "StonecutterBlockMixin"
+  ],
+  "client": [],
+  "injectors": { "defaultRequire": 1 }
 }

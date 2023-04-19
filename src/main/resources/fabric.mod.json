@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "minetweaks",
+  "version": "${version}",
+
+  "name": "MineTweaks",
+  "description": "Small tweaks to the game",
+  "authors": [ "GDavid" ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/minetweaks",
+    "sources": "https://github.com/gdavid04/MineTweaks"
+  },
+
+  "license": "GNU LGPLv3",
+  "icon": "assets/minetweaks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "gdavid.minetweaks.MineTweaks" ]
+  },
+  "mixins": [ "minetweaks.mixins.json" ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
