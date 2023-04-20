@@ -3,11 +3,7 @@
   "minVersion": "0.8",
   "package": "gdavid.minetweaks.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-    "ItemStackMixin",
-    "StonecutterBlockMixin",
-    "PersistentProjectileEntityMixin"
-  ],
-  "client": [],
+  "mixins": [ "CampfireBlockMixin", "ItemStackMixin", "PersistentProjectileEntityMixin", "StonecutterBlockMixin" ],
+  "client": [ ],
   "injectors": { "defaultRequire": 1 }
 }
