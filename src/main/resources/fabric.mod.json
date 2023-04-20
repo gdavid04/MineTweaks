@@ -16,7 +16,9 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [ "gdavid.minetweaks.MineTweaks" ]
+    "main": [
+		"gdavid.minetweaks.Mod"
+	]
   },
   "mixins": [ "minetweaks.mixins.json" ],
 

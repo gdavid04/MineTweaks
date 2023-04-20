@@ -7,5 +7,6 @@ Small Minecraft tweaks
 - Campfires ignite mobs (WIP)
 - Stonecutters damage mobs
 - Redstone Ore lights up when receiving a redstone signal with power > 8 and produces a redstone signal (power 8) while lit (WIP)
-- Arrows toggle levers (WIP)
+- Arrows and tridents toggle levers
 - Sticks increase reach distance
+- Hoopers can pick up arrows and tridents (WIP)

@@ -7,7 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
-public class MineTweaks implements ModInitializer {
+public class Mod implements ModInitializer {
 	
 	public static final String id = "minetweaks";
 	
