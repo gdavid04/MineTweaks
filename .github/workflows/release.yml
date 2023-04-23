@@ -31,6 +31,6 @@ jobs:
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           curseforge-id: 545110
-          curseforge-token: ${{secrets.CURSEFORGE_TOKEN}}
+          curseforge-token: ${{secrets.CURSEFORGE_API_KEY}}
           github-token: ${{github.token}}
-          java-version: 17
+          java: 17
