@@ -21,6 +21,7 @@
 	]
   },
   "mixins": [ "minetweaks.mixins.json" ],
+  "accessWidener": "minetweaks.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.14.17",
