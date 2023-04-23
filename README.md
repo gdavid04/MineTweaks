@@ -10,4 +10,4 @@ Small Minecraft tweaks
 - Redstone Ore lights up when receiving a redstone signal with power > 8 and produces a redstone signal (power 8) while lit
 - Arrows and tridents toggle levers
 - Sticks increase reach distance
-- Hoopers can pick up arrows and tridents
+- Hoppers can pick up arrows and tridents
