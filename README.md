@@ -12,3 +12,4 @@ Small Minecraft tweaks
 - Sticks increase reach distance
 - Hoppers can pick up arrows and tridents
 - Damaging falling blocks break glass on impact
+- Projectiles break glass on impact
