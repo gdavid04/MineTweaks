@@ -11,3 +11,4 @@ Small Minecraft tweaks
 - Arrows and tridents toggle levers
 - Sticks increase reach distance
 - Hoppers can pick up arrows and tridents
+- Damaging falling blocks break glass on impact
